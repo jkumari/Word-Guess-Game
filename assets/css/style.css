@@ -6,9 +6,57 @@
     font-family: 'Handlee', cursive;
 }
 .main{
-    background-image: url("../images/congruent_pentagon.png");
+    background-image: url("../images/congruent_pentagon.jpg");
 }
 
 #picture{
     max-width:300px;
+}
+
+body {
+    background-image: url("../images/zoo.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size:cover;
+    animation: backgroundAnimation 300s linear infinite;
+}
+
+#user-guess{
+    text-transform: uppercase;
+}
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90, 80, 21);
+}
+.main{
+    background-image: url("../images/congruent_pentagon.jpg");
+    
+}
+
+#picture{
+    max-width:300px;
+    }
+@keyframes backgroundAnimation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 2000px 0;
+    }
+}
+body {
+    background-image: url("../images/zoo.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size:cover;
+    animation: backgroundAnimation 300s linear infinite;
+}
+
+.text-secondary{
+    color:rgb(19, 175, 45) !important;
+    font-weight: 900;
+}
+.md-display-3{
+    color:rgb(19, 175, 45) !important;
+    font-weight: 900;
 }
